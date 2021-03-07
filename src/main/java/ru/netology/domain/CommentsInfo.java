@@ -2,6 +2,9 @@ package ru.netology.domain;
 
 public class CommentsInfo {
     private String logoCommenter;
+    private String commenterId;
+    private String commentText;
+    private String dateComment;
 
     public String getLogoCommenter() {
         return logoCommenter;
@@ -43,8 +46,5 @@ public class CommentsInfo {
         this.timeComment = timeComment;
     }
 
-    private String commenterId;
-    private String commentText;
-    private String dateComment;
     private String timeComment;
 }
